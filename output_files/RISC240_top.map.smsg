@@ -1,0 +1,6 @@
+Warning (10273): Verilog HDL warning at memory.sv(28): extended using "x" or "z" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 28
+Warning (10273): Verilog HDL warning at memory.sv(102): extended using "x" or "z" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 102
+Warning (10273): Verilog HDL warning at library.sv(82): extended using "x" or "z" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 82
+Warning (10273): Verilog HDL warning at library.sv(147): extended using "x" or "z" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 147
+Warning (10273): Verilog HDL warning at library.sv(173): extended using "x" or "z" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 173
+Warning (10273): Verilog HDL warning at controlpath.sv(396): extended using "x" or "z" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/controlpath.sv Line: 396

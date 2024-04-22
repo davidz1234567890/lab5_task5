@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Apr 22 10:49:21 2024
+Quartus Prime Version : 16.1.2 Build 203 01/18/2017 SJ Standard Edition
+Revision Name : RISC240_top
+Top-level Entity Name : RISC240_top
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 1,366 / 114,480 ( 1 % )
+    Total combinational functions : 1,292 / 114,480 ( 1 % )
+    Dedicated logic registers : 267 / 114,480 ( < 1 % )
+Total registers : 267
+Total pins : 105 / 529 ( 20 % )
+Total virtual pins : 0
+Total memory bits : 8,192 / 3,981,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

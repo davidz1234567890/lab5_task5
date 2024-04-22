@@ -1,0 +1,10 @@
+addr data   label     opcode  operands
+---- ----  --------   ------  --------
+0000 F800             BRA             
+0002 0200                     $0200   
+0200 2840  INIT       LW      R1 R0   
+0202 0310                     OP_A    
+0204 2880             LW      R2 R0   
+0206 0312                     OP_B    
+0208 3803             SW      R0 R3   
+020A 0300                     RESULT  
