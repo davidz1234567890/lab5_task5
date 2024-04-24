@@ -11,6 +11,8 @@ op_B     .EQU $0312
 
 init LW r1, r0, op_A
      LW r2, r0, op_B
+     ;.DW 0110 0000 1100 1010
+     .DW $60CA
      SW r0, r3, result
     ; LI r3, $8000
 ;multiply

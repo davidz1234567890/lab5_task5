@@ -42,7 +42,7 @@ module datapath (
   output [7:0] newA, newB,
    output done, //new code here
 	
-	
+	output [1:0] sel,
 	output [15:0] for_ledg15_0,
 	input [17:0] SW,
 	
@@ -111,8 +111,8 @@ module datapath (
     .I1(SW[15:8],
     .S(memAddr == 16'h0312),
     .Y(Y2));*/
-	 logic [7:0] Y1, Y2;
-	 logic [1:0] sel;
+	 logic [15:0] Y1, Y2;
+	 //logic [1:0] sel;
 	 assign sel[0] = (memAddr == 16'h0312);
 	 assign sel[1] = (memAddr == 16'h0310);
 	 
@@ -122,10 +122,10 @@ assign lower = (SW[7] & 1'b1) ? {8'b1111_1111, SW[7:0]} : {8'b0000_0000, SW[7:0]
 assign upper = (SW[15] & 1'b1) ? {8'b1111_1111, SW[15:8]} : {8'b0000_0000, SW[15:8]};
 	 
 	 Mux4to1
-        #(8)
+        #(16)
     select_switches(.I0(newMDR),
-    .I1(upper),
-	 .I2(lower),
+    .I1(upper), //selects this if sel = 2'b01, which happens when memAddr == 16'0312
+	 .I2(lower), //selects this if sel = 2'b10, whch happens when memAddr == 16'0310
     .I3(Y1),
     .S(sel),
     .Y(Y2));

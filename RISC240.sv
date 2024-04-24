@@ -77,8 +77,8 @@ logic start, done;
 logic [15:0] output_multiply, for_ledg15_0;
 logic [7:0] newA, newB;
 
-
-
+logic [1:0] sel;
+assign LEDG[1:0]=sel;
 
    controlpath cp(.out(cPts),
                   .CCin(condCodes),
@@ -104,7 +104,7 @@ logic [7:0] newA, newB;
                   .done(done),
 						
 						.for_ledg15_0, .SW, 
-						
+						.sel,
 						
                .memAddr(memAddr),
                .MDRout(memData),

@@ -1,5 +1,5 @@
 Flow report for RISC240_top
-Mon Apr 22 10:49:37 2024
+Tue Apr 23 17:55:18 2024
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -41,20 +41,20 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Apr 22 10:49:37 2024           ;
+; Flow Status                        ; Successful - Tue Apr 23 17:55:18 2024           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; RISC240_top                                     ;
 ; Top-level Entity Name              ; RISC240_top                                     ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE115F29C7                                   ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 1,366 / 114,480 ( 1 % )                         ;
-;     Total combinational functions  ; 1,292 / 114,480 ( 1 % )                         ;
-;     Dedicated logic registers      ; 267 / 114,480 ( < 1 % )                         ;
-; Total registers                    ; 267                                             ;
+; Total logic elements               ; 1,445 / 114,480 ( 1 % )                         ;
+;     Total combinational functions  ; 1,369 / 114,480 ( 1 % )                         ;
+;     Dedicated logic registers      ; 307 / 114,480 ( < 1 % )                         ;
+; Total registers                    ; 307                                             ;
 ; Total pins                         ; 105 / 529 ( 20 % )                              ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 8,192 / 3,981,312 ( < 1 % )                     ;
+; Total memory bits                  ; 16,384 / 3,981,312 ( < 1 % )                    ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                                 ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
 +------------------------------------+-------------------------------------------------+
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/22/2024 10:48:58 ;
+; Start date & time ; 04/23/2024 17:54:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; RISC240_top         ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 273659133207070.171379733714617        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 273659133207070.171390927926894        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -97,12 +97,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 1170 MB             ; 00:00:19                           ;
-; Fitter                    ; 00:00:14     ; 1.1                     ; 1716 MB             ; 00:00:27                           ;
-; Assembler                 ; 00:00:02     ; 1.0                     ; 937 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:05     ; 1.2                     ; 1154 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 1191 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:33     ; --                      ; --                  ; 00:00:52                           ;
+; Analysis & Synthesis      ; 00:00:12     ; 1.0                     ; 1162 MB             ; 00:00:20                           ;
+; Fitter                    ; 00:00:13     ; 1.1                     ; 1718 MB             ; 00:00:28                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 939 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.2                     ; 1153 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 1192 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:32     ; --                      ; --                  ; 00:00:53                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for RISC240_top
-Mon Apr 22 10:49:07 2024
+Tue Apr 23 17:54:51 2024
 Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
 
 
@@ -15,65 +15,61 @@ Quartus Prime Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Inverted Register Statistics
- 13. Registers Added for RAM Pass-Through Logic
- 14. Multiplexer Restructuring Statistics (Restructuring Performed)
- 15. Source assignments for memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated
- 16. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg1
- 17. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg2
- 18. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg3
- 19. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg4
- 20. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg5
- 21. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg6
- 22. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg7
- 23. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|demux:reg_en_decoder
- 24. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|mux8to1:muxRS1
- 25. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|mux8to1:muxRS2
- 26. Parameter Settings for User Entity Instance: datapath:dp|tridrive:a
- 27. Parameter Settings for User Entity Instance: datapath:dp|tridrive:b
- 28. Parameter Settings for User Entity Instance: datapath:dp|tridrive:c
- 29. Parameter Settings for User Entity Instance: datapath:dp|aluMux:MuxA
- 30. Parameter Settings for User Entity Instance: datapath:dp|aluMux:MuxB
- 31. Parameter Settings for User Entity Instance: datapath:dp|decoder:reg_load_decoder
- 32. Parameter Settings for User Entity Instance: datapath:dp|Mux4to1:select_switches
- 33. Parameter Settings for User Entity Instance: datapath:dp|register:memDataReg
- 34. Parameter Settings for User Entity Instance: datapath:dp|register:pcReg
- 35. Parameter Settings for User Entity Instance: datapath:dp|register:memAddrReg
- 36. Parameter Settings for User Entity Instance: datapath:dp|register:instrReg
- 37. Parameter Settings for User Entity Instance: datapath:dp|register:condCodeReg
- 38. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8
- 39. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Register:a_register
- 40. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Register:b_register
- 41. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_abs_value
- 42. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_correct_product
- 43. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Register:product_register
- 44. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add
- 45. Parameter Settings for User Entity Instance: datapath:dp|Mux2to1:choose_output
- 46. Parameter Settings for User Entity Instance: datapath:dp|Mux2to1:choose_flags
- 47. Parameter Settings for User Entity Instance: datapath:dp|Register:ledr_reg
- 48. Parameter Settings for Inferred Entity Instance: memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0
- 49. altsyncram Parameter Settings by Entity Instance
- 50. Port Connectivity Checks: "SevenSegmentControl:ssc"
- 51. Port Connectivity Checks: "memorySystem:mem|memory_synthesis:mem"
- 52. Port Connectivity Checks: "datapath:dp|Register:ledr_reg"
- 53. Port Connectivity Checks: "datapath:dp|Mux2to1:choose_flags"
- 54. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add"
- 55. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Register:b_register"
- 56. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Register:a_register"
- 57. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8"
- 58. Port Connectivity Checks: "datapath:dp|register:memDataReg"
- 59. Port Connectivity Checks: "datapath:dp|Mux4to1:select_switches"
- 60. Port Connectivity Checks: "datapath:dp|decoder:reg_load_decoder"
- 61. Port Connectivity Checks: "datapath:dp|tridrive:a"
- 62. Port Connectivity Checks: "datapath:dp|reg_file:rfile|demux:reg_en_decoder"
- 63. Port Connectivity Checks: "datapath:dp"
- 64. Port Connectivity Checks: "controlpath:cp"
- 65. Post-Synthesis Netlist Statistics for Top Partition
- 66. Elapsed Time Per Partition
- 67. Analysis & Synthesis Messages
- 68. Analysis & Synthesis Suppressed Messages
+ 10. General Register Statistics
+ 11. Inverted Register Statistics
+ 12. Registers Added for RAM Pass-Through Logic
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated
+ 15. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg1
+ 16. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg2
+ 17. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg3
+ 18. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg4
+ 19. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg5
+ 20. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg6
+ 21. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|register:reg7
+ 22. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|demux:reg_en_decoder
+ 23. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|mux8to1:muxRS1
+ 24. Parameter Settings for User Entity Instance: datapath:dp|reg_file:rfile|mux8to1:muxRS2
+ 25. Parameter Settings for User Entity Instance: datapath:dp|tridrive:a
+ 26. Parameter Settings for User Entity Instance: datapath:dp|tridrive:b
+ 27. Parameter Settings for User Entity Instance: datapath:dp|tridrive:c
+ 28. Parameter Settings for User Entity Instance: datapath:dp|aluMux:MuxA
+ 29. Parameter Settings for User Entity Instance: datapath:dp|aluMux:MuxB
+ 30. Parameter Settings for User Entity Instance: datapath:dp|decoder:reg_load_decoder
+ 31. Parameter Settings for User Entity Instance: datapath:dp|Mux4to1:select_switches
+ 32. Parameter Settings for User Entity Instance: datapath:dp|register:memDataReg
+ 33. Parameter Settings for User Entity Instance: datapath:dp|register:pcReg
+ 34. Parameter Settings for User Entity Instance: datapath:dp|register:memAddrReg
+ 35. Parameter Settings for User Entity Instance: datapath:dp|register:instrReg
+ 36. Parameter Settings for User Entity Instance: datapath:dp|register:condCodeReg
+ 37. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8
+ 38. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Register:a_register
+ 39. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Register:b_register
+ 40. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_abs_value
+ 41. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_correct_product
+ 42. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Register:product_register
+ 43. Parameter Settings for User Entity Instance: datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add
+ 44. Parameter Settings for User Entity Instance: datapath:dp|Mux2to1:choose_output
+ 45. Parameter Settings for User Entity Instance: datapath:dp|Mux2to1:choose_flags
+ 46. Parameter Settings for User Entity Instance: datapath:dp|Register:ledr_reg
+ 47. Parameter Settings for Inferred Entity Instance: memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0
+ 48. altsyncram Parameter Settings by Entity Instance
+ 49. Port Connectivity Checks: "SevenSegmentControl:ssc"
+ 50. Port Connectivity Checks: "memorySystem:mem|memory_synthesis:mem"
+ 51. Port Connectivity Checks: "datapath:dp|Register:ledr_reg"
+ 52. Port Connectivity Checks: "datapath:dp|Mux2to1:choose_flags"
+ 53. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add"
+ 54. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Register:b_register"
+ 55. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Register:a_register"
+ 56. Port Connectivity Checks: "datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8"
+ 57. Port Connectivity Checks: "datapath:dp|decoder:reg_load_decoder"
+ 58. Port Connectivity Checks: "datapath:dp|reg_file:rfile|demux:reg_en_decoder"
+ 59. Port Connectivity Checks: "datapath:dp"
+ 60. Port Connectivity Checks: "controlpath:cp"
+ 61. Post-Synthesis Netlist Statistics for Top Partition
+ 62. Elapsed Time Per Partition
+ 63. Analysis & Synthesis Messages
+ 64. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -100,18 +96,18 @@ agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 22 10:49:07 2024           ;
+; Analysis & Synthesis Status        ; Successful - Tue Apr 23 17:54:51 2024           ;
 ; Quartus Prime Version              ; 16.1.2 Build 203 01/18/2017 SJ Standard Edition ;
 ; Revision Name                      ; RISC240_top                                     ;
 ; Top-level Entity Name              ; RISC240_top                                     ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 1,469                                           ;
-;     Total combinational functions  ; 1,283                                           ;
-;     Dedicated logic registers      ; 267                                             ;
-; Total registers                    ; 267                                             ;
+; Total logic elements               ; 1,557                                           ;
+;     Total combinational functions  ; 1,352                                           ;
+;     Dedicated logic registers      ; 307                                             ;
+; Total registers                    ; 307                                             ;
 ; Total pins                         ; 105                                             ;
 ; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 8,192                                           ;
+; Total memory bits                  ; 16,384                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
 ; Total PLLs                         ; 0                                               ;
 +------------------------------------+-------------------------------------------------+
@@ -261,31 +257,31 @@ agreement for further details.
 +---------------------------------------------+--------------+
 ; Resource                                    ; Usage        ;
 +---------------------------------------------+--------------+
-; Estimated Total logic elements              ; 1,469        ;
+; Estimated Total logic elements              ; 1,557        ;
 ;                                             ;              ;
-; Total combinational functions               ; 1283         ;
+; Total combinational functions               ; 1352         ;
 ; Logic element usage by number of LUT inputs ;              ;
-;     -- 4 input functions                    ; 909          ;
-;     -- 3 input functions                    ; 307          ;
-;     -- <=2 input functions                  ; 67           ;
+;     -- 4 input functions                    ; 939          ;
+;     -- 3 input functions                    ; 336          ;
+;     -- <=2 input functions                  ; 77           ;
 ;                                             ;              ;
 ; Logic elements by mode                      ;              ;
-;     -- normal mode                          ; 1169         ;
+;     -- normal mode                          ; 1238         ;
 ;     -- arithmetic mode                      ; 114          ;
 ;                                             ;              ;
-; Total registers                             ; 267          ;
-;     -- Dedicated logic registers            ; 267          ;
+; Total registers                             ; 307          ;
+;     -- Dedicated logic registers            ; 307          ;
 ;     -- I/O registers                        ; 0            ;
 ;                                             ;              ;
 ; I/O pins                                    ; 105          ;
-; Total memory bits                           ; 8192         ;
+; Total memory bits                           ; 16384        ;
 ;                                             ;              ;
 ; Embedded Multiplier 9-bit elements          ; 0            ;
 ;                                             ;              ;
 ; Maximum fan-out node                        ; KEY[0]~input ;
-; Maximum fan-out                             ; 275          ;
-; Total fan-out                               ; 6014         ;
-; Average fan-out                             ; 3.40         ;
+; Maximum fan-out                             ; 323          ;
+; Total fan-out                               ; 6545         ;
+; Average fan-out                             ; 3.47         ;
 +---------------------------------------------+--------------+
 
 
@@ -294,7 +290,7 @@ agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                    ; Entity Name         ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |RISC240_top                                 ; 1283 (65)           ; 267 (0)                   ; 8192        ; 0            ; 0       ; 0         ; 105  ; 0            ; |RISC240_top                                                                                           ; RISC240_top         ; work         ;
+; |RISC240_top                                 ; 1352 (65)           ; 307 (0)                   ; 16384       ; 0            ; 0       ; 0         ; 105  ; 0            ; |RISC240_top                                                                                           ; RISC240_top         ; work         ;
 ;    |SevenSegmentControl:ssc|                 ; 56 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|SevenSegmentControl:ssc                                                                   ; SevenSegmentControl ; work         ;
 ;       |SevenSegmentDigit:ssd0|               ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|SevenSegmentControl:ssc|SevenSegmentDigit:ssd0                                            ; SevenSegmentDigit   ; work         ;
 ;          |HEXtoSevenSegment:h2ss|            ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|SevenSegmentControl:ssc|SevenSegmentDigit:ssd0|HEXtoSevenSegment:h2ss                     ; HEXtoSevenSegment   ; work         ;
@@ -312,8 +308,8 @@ agreement for further details.
 ;          |HEXtoSevenSegment:h2ss|            ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|SevenSegmentControl:ssc|SevenSegmentDigit:ssd6|HEXtoSevenSegment:h2ss                     ; HEXtoSevenSegment   ; work         ;
 ;       |SevenSegmentDigit:ssd7|               ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|SevenSegmentControl:ssc|SevenSegmentDigit:ssd7                                            ; SevenSegmentDigit   ; work         ;
 ;          |HEXtoSevenSegment:h2ss|            ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|SevenSegmentControl:ssc|SevenSegmentDigit:ssd7|HEXtoSevenSegment:h2ss                     ; HEXtoSevenSegment   ; work         ;
-;    |controlpath:cp|                          ; 214 (214)           ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|controlpath:cp                                                                            ; controlpath         ; work         ;
-;    |datapath:dp|                             ; 940 (8)             ; 216 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp                                                                               ; datapath            ; work         ;
+;    |controlpath:cp|                          ; 218 (218)           ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|controlpath:cp                                                                            ; controlpath         ; work         ;
+;    |datapath:dp|                             ; 995 (8)             ; 232 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp                                                                               ; datapath            ; work         ;
 ;       |Multiplier:DUT_multiply|              ; 111 (53)            ; 37 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply                                                       ; Multiplier          ; work         ;
 ;          |Counter:count_to_8|                ; 4 (4)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8                                    ; Counter             ; work         ;
 ;          |Mux2to1:select_for_add|            ; 33 (33)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add                                ; Mux2to1             ; work         ;
@@ -321,16 +317,16 @@ agreement for further details.
 ;          |Register:b_register|               ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Register:b_register                                   ; Register            ; work         ;
 ;          |Register:product_register|         ; 17 (17)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Register:product_register                             ; Register            ; work         ;
 ;          |fsm:control|                       ; 4 (4)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|fsm:control                                           ; fsm                 ; work         ;
-;       |Mux2to1:choose_flags|                 ; 26 (26)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Mux2to1:choose_flags                                                          ; Mux2to1             ; work         ;
-;       |Mux2to1:choose_output|                ; 20 (20)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Mux2to1:choose_output                                                         ; Mux2to1             ; work         ;
-;       |Register:ledr_reg|                    ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Register:ledr_reg                                                             ; Register            ; work         ;
-;       |alu:alu_dp|                           ; 539 (539)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|alu:alu_dp                                                                    ; alu                 ; work         ;
-;       |aluMux:MuxA|                          ; 93 (93)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|aluMux:MuxA                                                                   ; aluMux              ; work         ;
-;       |aluMux:MuxB|                          ; 51 (51)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|aluMux:MuxB                                                                   ; aluMux              ; work         ;
+;       |Mux2to1:choose_flags|                 ; 24 (24)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Mux2to1:choose_flags                                                          ; Mux2to1             ; work         ;
+;       |Mux2to1:choose_output|                ; 17 (17)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Mux2to1:choose_output                                                         ; Mux2to1             ; work         ;
+;       |Mux4to1:select_switches|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Mux4to1:select_switches                                                       ; Mux4to1             ; work         ;
+;       |Register:ledr_reg|                    ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|Register:ledr_reg                                                             ; Register            ; work         ;
+;       |alu:alu_dp|                           ; 551 (551)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|alu:alu_dp                                                                    ; alu                 ; work         ;
+;       |aluMux:MuxA|                          ; 100 (100)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|aluMux:MuxA                                                                   ; aluMux              ; work         ;
+;       |aluMux:MuxB|                          ; 83 (83)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|aluMux:MuxB                                                                   ; aluMux              ; work         ;
 ;       |decoder:reg_load_decoder|             ; 12 (12)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|decoder:reg_load_decoder                                                      ; decoder             ; work         ;
-;       |reg_file:rfile|                       ; 40 (0)              ; 112 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile                                                                ; reg_file            ; work         ;
+;       |reg_file:rfile|                       ; 8 (0)               ; 112 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile                                                                ; reg_file            ; work         ;
 ;          |demux:reg_en_decoder|              ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile|demux:reg_en_decoder                                           ; demux               ; work         ;
-;          |mux8to1:muxRS2|                    ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile|mux8to1:muxRS2                                                 ; mux8to1             ; work         ;
 ;          |register:reg1|                     ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile|register:reg1                                                  ; register            ; work         ;
 ;          |register:reg2|                     ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile|register:reg2                                                  ; register            ; work         ;
 ;          |register:reg3|                     ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|reg_file:rfile|register:reg3                                                  ; register            ; work         ;
@@ -341,14 +337,14 @@ agreement for further details.
 ;       |register:condCodeReg|                 ; 0 (0)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|register:condCodeReg                                                          ; register            ; work         ;
 ;       |register:instrReg|                    ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|register:instrReg                                                             ; register            ; work         ;
 ;       |register:memAddrReg|                  ; 0 (0)               ; 15 (15)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|register:memAddrReg                                                           ; register            ; work         ;
-;       |register:memDataReg|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|register:memDataReg                                                           ; register            ; work         ;
+;       |register:memDataReg|                  ; 21 (21)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|register:memDataReg                                                           ; register            ; work         ;
 ;       |register:pcReg|                       ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|register:pcReg                                                                ; register            ; work         ;
-;       |tridrive:a|                           ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|tridrive:a                                                                    ; tridrive            ; work         ;
-;       |tridrive:c|                           ; 24 (24)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|tridrive:c                                                                    ; tridrive            ; work         ;
-;    |memorySystem:mem|                        ; 8 (0)               ; 44 (0)                    ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem                                                                          ; memorySystem        ; work         ;
-;       |memory_synthesis:mem|                 ; 8 (8)               ; 44 (44)                   ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem|memory_synthesis:mem                                                     ; memory_synthesis    ; work         ;
-;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0                                ; altsyncram          ; work         ;
-;             |altsyncram_k7g1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated ; altsyncram_k7g1     ; work         ;
+;       |tridrive:a|                           ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|tridrive:a                                                                    ; tridrive            ; work         ;
+;       |tridrive:c|                           ; 48 (48)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|datapath:dp|tridrive:c                                                                    ; tridrive            ; work         ;
+;    |memorySystem:mem|                        ; 18 (0)              ; 68 (0)                    ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem                                                                          ; memorySystem        ; work         ;
+;       |memory_synthesis:mem|                 ; 18 (18)             ; 68 (68)                   ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem|memory_synthesis:mem                                                     ; memory_synthesis    ; work         ;
+;          |altsyncram:mem_rtl_0|              ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0                                ; altsyncram          ; work         ;
+;             |altsyncram_k7g1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |RISC240_top|memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated ; altsyncram_k7g1     ; work         ;
 +----------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -362,65 +358,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+------------+
 
 
-+---------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                      ;
-+----------------------------------------------------------------+----------------------------------------+
-; Register name                                                  ; Reason for Removal                     ;
-+----------------------------------------------------------------+----------------------------------------+
-; datapath:dp|register:memDataReg|out[8..15]                     ; Stuck at GND due to stuck port data_in ;
-; datapath:dp|Register:ledr_reg|Q[8..15]                         ; Stuck at GND due to stuck port data_in ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[1,2]    ; Stuck at GND due to stuck port data_in ;
-; memorySystem:mem|memory_synthesis:mem|mem~9                    ; Stuck at GND due to stuck port data_in ;
-; memorySystem:mem|memory_synthesis:mem|mem~10                   ; Stuck at GND due to stuck port data_in ;
-; memorySystem:mem|memory_synthesis:mem|mem~11                   ; Stuck at GND due to stuck port data_in ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[37..42] ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem~12                   ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[43,44]  ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem~13                   ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[45,46]  ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem~14                   ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[47,48]  ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem~15                   ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[49,50]  ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem~16                   ; Lost fanout                            ;
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[51,52]  ; Lost fanout                            ;
-; Total Number of Removed Registers = 42                         ;                                        ;
-+----------------------------------------------------------------+----------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                         ;
-+-----------------------------------------------------------+---------------------------+-------------------------------------------------------------+
-; Register name                                             ; Reason for Removal        ; Registers Removed due to This Register                      ;
-+-----------------------------------------------------------+---------------------------+-------------------------------------------------------------+
-; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[1] ; Stuck at GND              ; memorySystem:mem|memory_synthesis:mem|mem~9,                ;
-;                                                           ; due to stuck port data_in ; memorySystem:mem|memory_synthesis:mem|mem~10,               ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem~11,               ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[38], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[40], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[42], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[44], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[46], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[48], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[50], ;
-;                                                           ;                           ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[52]  ;
-; datapath:dp|register:memDataReg|out[15]                   ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[15]                         ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[14]                   ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[14]                         ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[13]                   ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[13]                         ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[12]                   ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[12]                         ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[11]                   ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[11]                         ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[10]                   ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[10]                         ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[9]                    ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[9]                          ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-; datapath:dp|register:memDataReg|out[8]                    ; Stuck at GND              ; datapath:dp|Register:ledr_reg|Q[8]                          ;
-;                                                           ; due to stuck port data_in ;                                                             ;
-+-----------------------------------------------------------+---------------------------+-------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                   ;
++-------------------------------------------------------------+----------------------------------------+
+; Register name                                               ; Reason for Removal                     ;
++-------------------------------------------------------------+----------------------------------------+
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[1,2] ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 2                       ;                                        ;
++-------------------------------------------------------------+----------------------------------------+
 
 
 +------------------------------------------------------+
@@ -428,12 +373,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 267   ;
+; Total registers                              ; 307   ;
 ; Number of registers using Synchronous Clear  ; 16    ;
-; Number of registers using Synchronous Load   ; 8     ;
-; Number of registers using Asynchronous Clear ; 189   ;
+; Number of registers using Synchronous Load   ; 16    ;
+; Number of registers using Asynchronous Clear ; 197   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 229   ;
+; Number of registers using Clock Enable       ; 253   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -443,8 +388,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------+---------+
 ; Inverted Register                                          ; Fan out ;
 +------------------------------------------------------------+---------+
-; controlpath:cp|currState[3]                                ; 151     ;
-; controlpath:cp|currState[0]                                ; 110     ;
+; controlpath:cp|currState[3]                                ; 147     ;
+; controlpath:cp|currState[0]                                ; 114     ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[46] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[45] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem~13               ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[48] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[47] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem~14               ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[50] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[49] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem~15               ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[52] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[51] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem~16               ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[38] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[40] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[42] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[44] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[43] ; 1       ;
+; memorySystem:mem|memory_synthesis:mem|mem~12               ; 1       ;
 ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[30] ; 1       ;
 ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[32] ; 1       ;
 ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[34] ; 1       ;
@@ -453,7 +416,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[24] ; 1       ;
 ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[26] ; 1       ;
 ; memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[28] ; 1       ;
-; Total number of inverted registers = 10                    ;         ;
+; Total number of inverted registers = 28                    ;         ;
 +------------------------------------------------------------+---------+
 
 
@@ -518,29 +481,27 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------+-------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                      ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Register:product_register|Q[4] ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8|Q[3]        ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |RISC240_top|datapath:dp|register:memDataReg|out[7]                             ;
-; 4:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |RISC240_top|Mux15                                                              ;
-; 4:1                ; 23 bits   ; 46 LEs        ; 46 LEs               ; 0 LEs                  ; No         ; |RISC240_top|Mux1                                                               ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add|Y[6]    ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add|Y[15]   ;
-; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |RISC240_top|datapath:dp|decoder:reg_load_decoder|ShiftLeft0                    ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |RISC240_top|datapath:dp|reg_file:rfile|mux8to1:muxRS2|Mux0                     ;
-; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add|Y[12]   ;
-; 9:1                ; 8 bits    ; 48 LEs        ; 40 LEs               ; 8 LEs                  ; No         ; |RISC240_top|datapath:dp|aluMux:MuxB|Selector12                                 ;
-; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|aluMux:MuxA|Selector0                                  ;
-; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|aluMux:MuxA|Selector8                                  ;
-; 131:1              ; 3 bits    ; 261 LEs       ; 30 LEs               ; 231 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector12                                  ;
-; 132:1              ; 3 bits    ; 264 LEs       ; 30 LEs               ; 234 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector5                                   ;
-; 132:1              ; 2 bits    ; 176 LEs       ; 22 LEs               ; 154 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector13                                  ;
-; 133:1              ; 2 bits    ; 176 LEs       ; 22 LEs               ; 154 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector4                                   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                       ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------+
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Register:product_register|Q[13] ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Counter:count_to_8|Q[2]         ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |RISC240_top|datapath:dp|register:memDataReg|out[3]                              ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; Yes        ; |RISC240_top|datapath:dp|register:memDataReg|out[9]                              ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 62 LEs               ; 0 LEs                  ; No         ; |RISC240_top|Mux1                                                                ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add|Y[3]     ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add|Y[15]    ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |RISC240_top|datapath:dp|decoder:reg_load_decoder|ShiftLeft0                     ;
+; 4:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|Multiplier:DUT_multiply|Mux2to1:select_for_add|Y[10]    ;
+; 9:1                ; 16 bits   ; 96 LEs        ; 80 LEs               ; 16 LEs                 ; No         ; |RISC240_top|datapath:dp|aluMux:MuxB|Selector8                                   ;
+; 10:1               ; 16 bits   ; 96 LEs        ; 96 LEs               ; 0 LEs                  ; No         ; |RISC240_top|datapath:dp|aluMux:MuxA|Selector7                                   ;
+; 131:1              ; 3 bits    ; 261 LEs       ; 30 LEs               ; 231 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector12                                   ;
+; 132:1              ; 3 bits    ; 264 LEs       ; 30 LEs               ; 234 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector5                                    ;
+; 132:1              ; 2 bits    ; 176 LEs       ; 22 LEs               ; 154 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector13                                   ;
+; 133:1              ; 2 bits    ; 176 LEs       ; 22 LEs               ; 154 LEs                ; No         ; |RISC240_top|datapath:dp|alu:alu_dp|Selector4                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------+
@@ -719,7 +680,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                    ;
 +----------------+-------+---------------------------------------------------------+
-; WIDTH          ; 8     ; Signed Integer                                          ;
+; WIDTH          ; 16    ; Signed Integer                                          ;
 +----------------+-------+---------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1029,26 +990,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+-------+----------+----------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "datapath:dp|register:memDataReg"                                                                                                            ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                      ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; in   ; Input ; Warning  ; Input port expression (8 bits) is smaller than the input port (16 bits) it drives.  Extra input bit(s) "in[15..8]" will be connected to GND. ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "datapath:dp|Mux4to1:select_switches"                                                                                                                                             ;
-+------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                                                           ;
-+------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; I0   ; Input ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; I1   ; Input ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; I2   ; Input ; Warning  ; Input port expression (16 bits) is wider than the input port (8 bits) it drives.  The 8 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +-------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "datapath:dp|decoder:reg_load_decoder"                                                  ;
 +---------+--------+----------+-------------------------------------------------------------------------------------+
@@ -1057,15 +998,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; en      ; Input  ; Info     ; Stuck at VCC                                                                        ;
 ; D[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +---------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+----------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "datapath:dp|tridrive:a"                                                                   ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port       ; Type   ; Severity ; Details                                                                             ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
-; bus[15..8] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------+
@@ -1112,27 +1044,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 105                         ;
-; cycloneiii_ff         ; 267                         ;
+; cycloneiii_ff         ; 307                         ;
 ;     CLR               ; 8                           ;
-;     ENA               ; 32                          ;
+;     ENA               ; 48                          ;
 ;     ENA CLR           ; 173                         ;
-;     ENA CLR SLD       ; 8                           ;
+;     ENA CLR SLD       ; 16                          ;
 ;     ENA SCLR          ; 16                          ;
-;     plain             ; 30                          ;
-; cycloneiii_lcell_comb ; 1292                        ;
+;     plain             ; 46                          ;
+; cycloneiii_lcell_comb ; 1361                        ;
 ;     arith             ; 114                         ;
 ;         2 data inputs ; 23                          ;
 ;         3 data inputs ; 91                          ;
-;     normal            ; 1178                        ;
+;     normal            ; 1247                        ;
 ;         0 data inputs ; 4                           ;
-;         1 data inputs ; 9                           ;
+;         1 data inputs ; 19                          ;
 ;         2 data inputs ; 40                          ;
-;         3 data inputs ; 216                         ;
-;         4 data inputs ; 909                         ;
-; cycloneiii_ram_block  ; 8                           ;
+;         3 data inputs ; 245                         ;
+;         4 data inputs ; 939                         ;
+; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 21.00                       ;
-; Average LUT depth     ; 12.41                       ;
+; Max LUT depth         ; 20.00                       ;
+; Average LUT depth     ; 11.98                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1151,7 +1083,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.2 Build 203 01/18/2017 SJ Standard Edition
-    Info: Processing started: Mon Apr 22 10:48:57 2024
+    Info: Processing started: Tue Apr 23 17:54:39 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab5_task5 -c RISC240_top
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1209,7 +1141,7 @@ Warning (10036): Verilog HDL or VHDL warning at RISC240.sv(69): object "r7" assi
 Warning (10036): Verilog HDL or VHDL warning at RISC240.sv(69): object "r6" assigned a value but never read File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 69
 Warning (10036): Verilog HDL or VHDL warning at RISC240.sv(69): object "r5" assigned a value but never read File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 69
 Warning (10036): Verilog HDL or VHDL warning at RISC240.sv(69): object "r0" assigned a value but never read File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 69
-Warning (10034): Output port "LEDG[7..0]" at RISC240.sv(51) has no driver File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
+Warning (10034): Output port "LEDG[7..2]" at RISC240.sv(51) has no driver File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
 Info (12128): Elaborating entity "controlpath" for hierarchy "controlpath:cp" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 92
 Info (12128): Elaborating entity "datapath" for hierarchy "datapath:dp" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 117
 Info (12128): Elaborating entity "reg_file" for hierarchy "datapath:dp|reg_file:rfile" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/datapath.sv Line: 80
@@ -1244,16 +1176,7 @@ Info (12128): Elaborating entity "memory_synthesis" for hierarchy "memorySystem:
 Info (12128): Elaborating entity "SevenSegmentControl" for hierarchy "SevenSegmentControl:ssc" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 189
 Info (12128): Elaborating entity "SevenSegmentDigit" for hierarchy "SevenSegmentControl:ssc|SevenSegmentDigit:ssd0" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 292
 Info (12128): Elaborating entity "HEXtoSevenSegment" for hierarchy "SevenSegmentControl:ssc|SevenSegmentDigit:ssd0|HEXtoSevenSegment:h2ss" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 279
-Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
-    Warning (13048): Converted tri-state node "dataBus[15]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[14]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[13]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[12]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[11]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[10]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[9]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-    Warning (13048): Converted tri-state node "dataBus[8]" into a selector File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.sv Line: 100
-Warning (113028): 65528 out of 65536 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 8 warnings found, and 8 warnings are reported. File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
+Warning (113028): 65527 out of 65536 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 9 warnings found, and 9 warnings are reported. File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
     Warning (113026): Memory Initialization File Address 1 is not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
     Warning (113027): Addresses ranging from 3 to 511 are not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
     Warning (113026): Memory Initialization File Address 513 is not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
@@ -1261,7 +1184,8 @@ Warning (113028): 65528 out of 65536 addresses are uninitialized. The Quartus Pr
     Warning (113026): Memory Initialization File Address 517 is not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
     Warning (113026): Memory Initialization File Address 519 is not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
     Warning (113026): Memory Initialization File Address 521 is not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
-    Warning (113027): Addresses ranging from 523 to 65535 are not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
+    Warning (113026): Memory Initialization File Address 523 is not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
+    Warning (113027): Addresses ranging from 525 to 65535 are not initialized File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif Line: 1
 Critical Warning (127004): Memory depth (1024) in the design file differs from memory depth (65536) in the Memory Initialization File "/afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/memory.mif" -- truncated remaining initial content value to fit RAM
 Warning (276020): Inferred RAM node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0" from synchronous design logic.  Pass-through logic has been added to match the read-during-write behavior of the original design.
 Info (19000): Inferred 1 megafunctions from design logic
@@ -1300,18 +1224,15 @@ Info (12133): Instantiated megafunction "memorySystem:mem|memory_synthesis:mem|a
     Info (12134): Parameter "INIT_FILE" = "memory.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_k7g1.tdf
     Info (12023): Found entity 1: altsyncram_k7g1 File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 28
-Warning (14284): Synthesized away the following node(s):
-    Warning (14285): Synthesized away the following RAM node(s):
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a8" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 295
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a9" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 327
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a10" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 359
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a11" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 391
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a12" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 423
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a13" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 455
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a14" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 487
-        Warning (14320): Synthesized away node "memorySystem:mem|memory_synthesis:mem|altsyncram:mem_rtl_0|altsyncram_k7g1:auto_generated|ram_block1a15" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/db/altsyncram_k7g1.tdf Line: 519
-Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[12]" to the node "datapath:dp|register:memDataReg|out[12]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[13]" to the node "datapath:dp|register:memDataReg|out[13]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[14]" to the node "datapath:dp|register:memDataReg|out[14]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[15]" to the node "datapath:dp|register:memDataReg|out[15]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[8]" to the node "datapath:dp|register:memDataReg|out[8]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[9]" to the node "datapath:dp|register:memDataReg|out[9]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[10]" to the node "datapath:dp|register:memDataReg|out[10]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[11]" to the node "datapath:dp|register:memDataReg|out[11]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[4]" to the node "datapath:dp|register:memDataReg|out[4]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[5]" to the node "datapath:dp|register:memDataReg|out[5]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[6]" to the node "datapath:dp|register:memDataReg|out[6]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
@@ -1320,6 +1241,14 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[1]" to the node "datapath:dp|register:memDataReg|out[1]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[2]" to the node "datapath:dp|register:memDataReg|out[2]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:a|bus[3]" to the node "datapath:dp|register:memDataReg|out[3]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[12]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[45]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[13]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[47]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[14]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[49]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[15]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[51]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[8]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[37]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[9]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[39]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[10]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[41]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
+    Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[11]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[43]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[4]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[29]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[5]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[31]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
     Warning (13047): Converted the fan-out from the tri-state buffer "datapath:dp|tridrive:c|bus[6]" to the node "memorySystem:mem|memory_synthesis:mem|mem_rtl_0_bypass[33]" into an OR gate File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/library.sv Line: 123
@@ -1331,8 +1260,6 @@ Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
 Info (13000): Registers with preset signals will power-up high File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/controlpath.sv Line: 59
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "LEDG[0]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
-    Warning (13410): Pin "LEDG[1]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
     Warning (13410): Pin "LEDG[2]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
     Warning (13410): Pin "LEDG[3]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
     Warning (13410): Pin "LEDG[4]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
@@ -1340,32 +1267,23 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDG[6]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
     Warning (13410): Pin "LEDG[7]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
     Warning (13410): Pin "LEDG[8]" is stuck at VCC File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 51
-    Warning (13410): Pin "LEDR[8]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[9]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[10]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[11]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[12]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[13]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[14]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
-    Warning (13410): Pin "LEDR[15]" is stuck at GND File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 52
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 21 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/output_files/RISC240_top.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "KEY[2]" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 53
     Warning (15610): No output dependent on input pin "KEY[3]" File: /afs/ece.cmu.edu/usr/dzhang2/Private/18240/lab5_task5/RISC240.sv Line: 53
-Info (21057): Implemented 1624 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 1722 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 22 input pins
     Info (21059): Implemented 83 output pins
-    Info (21061): Implemented 1511 logic cells
-    Info (21064): Implemented 8 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 84 warnings
-    Info: Peak virtual memory: 1174 megabytes
-    Info: Processing ended: Mon Apr 22 10:49:07 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:19
+    Info (21061): Implemented 1601 logic cells
+    Info (21064): Implemented 16 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 71 warnings
+    Info: Peak virtual memory: 1171 megabytes
+    Info: Processing ended: Tue Apr 23 17:54:51 2024
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:20
 
 
 +------------------------------------------+
